@@ -5,7 +5,6 @@ This product aims to be the metrics server in PropertyGuru. It will collect and 
 
 We are deploying Prometheus on `prometheus-infra` namespace to integrate with other services like `istio`, `kong` and collect metrics from it and forward them to `datadog` as there is no direct integration between these services with `datadog` and there is a need of `prometheus` plugin 
 
-
 ## Service Diagram
 
 ![Architecture overview](https://cdn.jsdelivr.net/gh/prometheus/prometheus@c34257d069c630685da35bcef084632ffd5d6209/documentation/images/architecture.svg)
